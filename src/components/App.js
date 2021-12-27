@@ -6,6 +6,7 @@ import ProjectList from "./ProjectList";
 import user from "../data/user";
 
 function App() {
+  console.log("projectID:", user.projects.id)
   return (
     <div>
       <NavBar />
